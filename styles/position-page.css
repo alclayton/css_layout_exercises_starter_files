@@ -1,1 +1,59 @@
+body {
+    background: url(/Users/alex/Documents/Thinkful/Projects/css_layout_exercises_starter_files/images/outerspace_landscape.jpeg) no-repeat;
+    background-size: cover;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: gray;
+    height: 200px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.header {
+    padding-top: 23px;
+
+}
+
+ul {
+    position: relative;
+    bottom: 100px;
+    left: 150px;
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+li::after {
+    content: " | ";
+}
+
+.greenbox {
+    position: relative;
+    top: 350px;
+    width: 600px;
+    height: 300px;
+    border: 10px green dotted;
+    margin: 0 auto;
+}
+
+.cat {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    bottom: 120px;
+    right: 90px;
+}
+
+.dog {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 170px;
+    left: 270px;
+}
 
