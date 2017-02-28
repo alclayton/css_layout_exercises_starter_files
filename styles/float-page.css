@@ -10,3 +10,23 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+
+p {
+
+}
+
+.left {
+    float: left;
+    max-width: 300px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.right {
+    float: right;
+    max-width: 300px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
